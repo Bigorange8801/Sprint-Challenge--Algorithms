@@ -10,4 +10,8 @@ c) O(n) - The function is recursively called the number of bunnies there are sin
 
 ## Exercise II
 
+floor = 0
 
+drop egg from floor: if egg does not break increase floor. drop egg from increased floor else if egg breaks then stop. Eggs from this floor onward will break.
+
+The runtime complexity of this would be O(n) because we have a single loop. 
